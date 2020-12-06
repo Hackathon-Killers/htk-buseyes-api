@@ -1,0 +1,15 @@
+spring:
+    profiles:
+      active: daehwan
+---
+spring:
+    config:
+        activate:
+            on-profile: daehwan
+feign:
+    client:
+        config:
+            bus-search-api:
+                connectTimeout: 1000
+                readTimeout: 1000
+                loggerLevel: FULL
