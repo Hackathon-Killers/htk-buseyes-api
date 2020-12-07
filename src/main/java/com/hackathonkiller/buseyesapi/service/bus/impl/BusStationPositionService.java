@@ -6,8 +6,8 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 @Service
-@Order(value = 3)
-public class BusRouteService implements BusService {
+@Order(value = 0)
+public class BusStationPositionService implements BusService {
 
     @Override
     public void callApi(SearchResultOfAPI searchResultOfAPI) {
