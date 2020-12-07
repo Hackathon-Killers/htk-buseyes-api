@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "busApi.searchKey",
+      "type": "java.lang.String",
+      "description": "Description for busApi.searchKey."
+    }
+  ]
+}
